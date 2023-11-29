@@ -39,7 +39,7 @@ export function Footer() {
     const links = group.links.map((link, index) => (
       <Text<'a'>
         key={index}
-        className={classes.link}
+        className={classes.link}//link
         component="a"
         href={link.link}
         //onClick={(event) => event.preventDefault()}
