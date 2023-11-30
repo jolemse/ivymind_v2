@@ -4,7 +4,7 @@ import { Carousel } from '@mantine/carousel';
 import { useMediaQuery } from '@mantine/hooks';
 import { Paper, Text, Title, Button, useMantineTheme, rem } from '@mantine/core';
 import classes from './CardsCarousel.module.css';
-import '@mantine/carousel/styles.css';
+//import '@mantine/carousel/styles.css';
 
 interface CardProps {
   image: string;
