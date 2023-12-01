@@ -4,6 +4,7 @@ import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { theme } from '../theme';
 import { HeaderSimple } from '@/components/Header/HeaderSimple';
 import { Footer } from '@/components/Footer/Footer';
+import '@mantine/carousel/styles.css';
 
 export const metadata = {
   title: 'Mantine Next.js template',

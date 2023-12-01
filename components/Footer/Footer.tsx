@@ -73,17 +73,17 @@ export function Footer() {
         </Text>
 
         <Group gap={0} className={classes.social} justify="flex-end" wrap="nowrap">
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="green" variant="subtle">
             <Link href="mailto:info@ivymind.de" rel="nofollow"><IconMail style={{ width: rem(28), height: rem(28) }} stroke={1.5} /></Link>
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="green" variant="subtle">
             <Link href="https://www.linkedin.com/company/ivymind-gmbh?_l=de_DE" rel="nofollow"><IconBrandLinkedin style={{ width: rem(28), height: rem(28) }} stroke={1.5} /></Link>
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon size="lg" color="green" variant="subtle">
             <Link href="https://www.instagram.com/ivymind.de/"><IconBrandInstagram style={{ width: rem(28), height: rem(28) }} stroke={1.5} /></Link>
           </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <Link href="https://wa.me/4915168464691" rel="nofollow"><IconBrandWhatsapp style={{ width: rem(28), height: rem(28) }} stroke={1.5} /></Link>
+          <ActionIcon size="lg" color="green" variant="subtle">
+            <Link href="https://wa.me/4915168464691" rel="nofollow" color="green"><IconBrandWhatsapp style={{ width: rem(28), height: rem(28) }} stroke={1.5} /></Link>
           </ActionIcon>
         </Group>
       </Container>

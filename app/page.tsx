@@ -1,13 +1,14 @@
 import { Container } from '@mantine/core';
-import { CardsCarousel } from '../components/Carousel/CardsCarousel';
-import '@mantine/carousel/styles.css';
+import UeberUns from './UeberUns';
+import OnlineportalAchtsamkeitSelbstliebe from './OnlineportalAchtsamkeitSelbstliebe';
 import Unterstuetzer from './Unterstuetzer';
 
 export default function HomePage() {
   return (
     <>
       <Container>
-        <CardsCarousel />
+        <UeberUns />
+        <OnlineportalAchtsamkeitSelbstliebe />
         <Unterstuetzer />
       </Container>
     </>
