@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { CardsCarousel } from '../../components/Carousel/CardsCarousel';
 import '@mantine/carousel/styles.css';
 
-export default function HomePage() {
+export default function KurseBuchen() {
   return (
     <Container>
       <Center><h2>Vorgestellter Inhalt</h2></Center>

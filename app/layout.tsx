@@ -7,7 +7,7 @@ import { Footer } from '@/components/Footer/Footer';
 import '@mantine/carousel/styles.css';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
+  title: 'Ivymind - Dein Portal für Achtsamkeit und Selbstliebe',
   description: 'I am using Mantine with Next.js!',
 };
 
@@ -24,11 +24,9 @@ export default function RootLayout({ children }: { children: any }) {
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <>
-            <HeaderSimple />
-            {children}
-            <Footer />
-          </>
+          <HeaderSimple />
+          {children}
+          <Footer />
         </MantineProvider>
       </body>
     </html>
