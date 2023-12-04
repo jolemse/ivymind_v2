@@ -7,7 +7,7 @@ export default function Blickfang() {
   return (
     <AspectRatio ratio={16 / 9} style={{ maxHeight: '768px' }}>
       <div className={classes.gradient}>
-        <Container style={{ position: 'relative', width: '100%' }}>
+        <Container style={{ position: 'relative', width: '100%', height: '100%' }}>
           <Image
             src="/img/Logo/Logo-Schriftzug.png"
             alt="Ivyimnd Logo und Schriftzug"
