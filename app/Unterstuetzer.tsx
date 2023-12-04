@@ -3,12 +3,12 @@
 import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
-import { Center, Image } from '@mantine/core';
+import { Center, Container, Image } from '@mantine/core';
 
 export default function Unterstuetzer() {
   const autoplay = useRef(Autoplay({ delay: 3000 }));
   return (
-    <>
+    <Container>
       <Center>
         <h3>Wir werden unterstützt von:</h3>
       </Center>
@@ -67,6 +67,6 @@ export default function Unterstuetzer() {
           </Center>
         </Carousel.Slide>
       </Carousel>
-    </>
+    </Container>
   );
 }

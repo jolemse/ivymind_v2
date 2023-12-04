@@ -1,18 +1,19 @@
-import { Container } from '@mantine/core';
+import Blickfang from './Blickfang';
 import UeberUns from './UeberUns';
 import OnlineportalAchtsamkeitSelbstliebe from './OnlineportalAchtsamkeitSelbstliebe';
 import Unterstuetzer from './Unterstuetzer';
 import BlogArtikel from './blogartikel';
+import SoGehts from './SoGehts';
 
 export default function HomePage() {
   return (
     <>
-      <Container>
-        <UeberUns />
-        <OnlineportalAchtsamkeitSelbstliebe />
-        <BlogArtikel />
-        <Unterstuetzer />
-      </Container>
+      <Blickfang />
+      <UeberUns />
+      <OnlineportalAchtsamkeitSelbstliebe />
+      <SoGehts />
+      <BlogArtikel />
+      <Unterstuetzer />
     </>
   );
 }

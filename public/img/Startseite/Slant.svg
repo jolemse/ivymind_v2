@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="296.71164mm"
+   height="52.547722mm"
+   viewBox="0 0 296.71164 52.547722"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="Slant.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.83174312"
+     inkscape:cx="482.72116"
+     inkscape:cy="-180.94529"
+     inkscape:window-width="1792"
+     inkscape:window-height="1120"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.09308246,-157.43768)">
+    <path
+       style="fill:#fef3d7;fill-opacity:1;stroke:none;stroke-width:0.520853px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.09308246,209.9854 296.80472,209.97902 0.09424255,157.43768 Z"
+       id="path1"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
