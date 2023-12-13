@@ -4,11 +4,11 @@ import OnlineportalAchtsamkeitSelbstliebe from './Startseite/OnlineportalAchtsam
 import SoGehts from './Startseite/SoGehts';
 import RankeVorteile from './Startseite/RankeVorteile';
 import Huerden from './Startseite/Huerden';
+import UnsereKompetenz from './Startseite/UnsereKompetenz';
+import { Testimonial } from './Startseite/Testimonial';
 import Kuration from './Startseite/Kuration';
 import BlogArtikel from './Startseite/blogartikel';
 import Unterstuetzer from './Startseite/Unterstuetzer';
-import UnsereKompetenz from './Startseite/UnsereKompetenz';
-import { Testimonial } from './Startseite/Testimonial';
 
 import classes from './Startseite/Blickfang.module.css';
 

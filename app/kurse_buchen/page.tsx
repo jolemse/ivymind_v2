@@ -7,8 +7,20 @@ import '@mantine/carousel/styles.css';
 export default function KurseBuchen() {
   return (
     <Container>
-      <Center><h2>Vorgestellter Inhalt</h2></Center>
+      <Center>
+        <h2>Vorgestellter Inhalt</h2>
+      </Center>
       <KurseCarousel />
+      <a-organization-page
+        base-url="https://anny.co/b"
+        dark-mode="false"
+        organization="ivymind"
+        placeholder-title="Ivymind"
+        hide-resource-header="true"
+        hide-organization-header="true"
+        should-login="false"
+        entity-id=""
+      />
     </Container>
   );
 }
