@@ -22,7 +22,7 @@ export default function HomePage() {
       <SoGehts />
       <RankeVorteile />
       <Huerden />
-      <div className={classes.gradient}>
+      <div className={classes.solidBackground}>
         <UnsereKompetenz />
         <Testimonial />
       </div>

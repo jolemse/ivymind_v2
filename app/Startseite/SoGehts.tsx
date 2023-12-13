@@ -1,11 +1,12 @@
 'use client';
 
 import { Container, Image, Grid } from '@mantine/core';
-import classes from './Blickfang.module.css';
+//import classes from './Blickfang.module.css';
 
 export default function SoGehts() {
   return (
-    <div className={classes.solidBackground}>
+    <div>
+      {/*className={classes.solidBackground}*/}
       <Container>
         <h2>Den richtigen Kurs oder Coach finden</h2>
         <Image src="/img/Startseite/Ivymind_Prozess.svg" style={{ width: '90%', margin: 'auto' }} />
