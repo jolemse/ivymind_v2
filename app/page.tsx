@@ -15,6 +15,7 @@ import classes from './Startseite/Blickfang.module.css';
 export default function HomePage() {
   return (
     <>
+      {/* How to write comments in HTML*/}
       <Blickfang />
       <UeberUns />
       <OnlineportalAchtsamkeitSelbstliebe />

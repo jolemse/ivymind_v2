@@ -50,7 +50,7 @@ export function Footer() {
 
     return (
       <div className={classes.wrapper} key={group.title}>
-        <Text className={classes.title}>{group.title}</Text>
+        <Text fw={700} className={classes.title}>{group.title}</Text>
         {links}
       </div>
     );

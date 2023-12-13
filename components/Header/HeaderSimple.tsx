@@ -2,7 +2,7 @@
 
 //import { useState } from 'react';
 import Link from 'next/link';
-import { Container, Group, Burger, Image } from '@mantine/core';
+import { Container, Group, Burger, Image, Button } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './HeaderSimple.module.css';
 
@@ -10,7 +10,6 @@ const links = [
   { link: '/', label: 'Start' },
   { link: '/ueber_uns', label: 'Über Uns' },
   { link: '/blog', label: 'Blog' },
-  { link: '/kurse_buchen', label: 'Kurse buchen' },
   { link: '/anbieter_in-werden', label: 'Anbieter:in werden' },
 ];
 
@@ -25,8 +24,8 @@ export function HeaderSimple() {
       className={classes.link}
       //data-active={active === link.link || undefined}
       //onClick={(event) => {
-        //event.preventDefault();
-        //setActive(link.link);
+      //event.preventDefault();
+      //setActive(link.link);
       //}}
     >
       {link.label}
@@ -36,10 +35,15 @@ export function HeaderSimple() {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
-        <Link href="/"><Image src="/img/Logo/Logo-Schriftzug.png" h="48" /></Link>
+        <Link href="/">
+          <Image src="/img/Logo/Logo-Schriftzug.png" h="48" />
+        </Link>
 
         <Group gap={5} visibleFrom="xs">
           {items}
+          <Link href="/kurse_buchen">
+            <Button>Finde deinen Coach</Button>
+          </Link>
         </Group>
 
         <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />

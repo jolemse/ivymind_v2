@@ -7,6 +7,13 @@ type BlogType = {
 
 export const articles: BlogType[] = [
   {
+    slug: 'selbstliebe_schluessel',
+    title: 'Der Schlüssel zur Selbstliebe: Prioritäten setzen',
+    subtitle:
+      'Wenn Du Dir keine eigenen Prioritäten setzt, dann übernimmst Du die Prioritäten der anderen. Ohne einen eigenen Kompass laufen wir Gefahr, uns ständig in den Verpflichtungen und Erwartungen anderer zu verlieren.',
+    bildquelle: '/img/Blog_Images/selbstliebe_schluessel.png',
+  },
+  {
     slug: 'selbstwert_was_ist_das',
     title: 'Wo bitte geht es zu diesem Selbstwert und was ist das überhaupt?',
     subtitle: 'Eine kurze Übung',

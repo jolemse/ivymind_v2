@@ -12,7 +12,7 @@ export default function Blickfang() {
   return (
     <AspectRatio ratio={mobile ? wide : square} style={{ maxHeight: '600px' }}>
       <div className={classes.gradient}>
-        <Container style={{ position: 'relative', width: '100%', height: '100%' }}>
+        <Container style={{ position: 'relative', width: '100%', height: '100%', color: '#f0a893' }}>
           <div style={{ width: '60%' }}>
             <h1>
               Finde Deinen eigenen Weg im Leben mit Zufriedenheit und Erfüllung und schlage ihn mit
