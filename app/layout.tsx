@@ -6,6 +6,7 @@ import { theme } from '../theme';
 import { HeaderSimple } from '@/components/Header/HeaderSimple';
 import { Footer } from '@/components/Footer/Footer';
 import '@mantine/carousel/styles.css';
+import { CookiesBanner } from '@/components/CookieConsentBanner/CookieConsentBanner';
 
 export const metadata = {
   title: 'Ivymind - Dein Portal für Achtsamkeit und Selbstliebe',
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: any }) {
       <body>
         <MantineProvider theme={theme}>
           <HeaderSimple />
+          <CookiesBanner />
           {children}
           <Footer />
         </MantineProvider>
