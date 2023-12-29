@@ -35,7 +35,7 @@ export function HeaderSimple() {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
-        <Link href="/">
+        <Link href="/" style={{ zIndex: '2000' }}>
           <Image src="/img/Logo/Logo-Schriftzug.png" h="48" />
         </Link>
 
@@ -46,32 +46,22 @@ export function HeaderSimple() {
           </Link>
         </Group>
 
-        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+        {/*Burger Menu */}
+        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" style={{ zIndex: '2000' }} />
         {opened && (
-          <div
-            style={{
-              position: 'fixed',
-              top: '56px',
-              left: 0,
-              width: '100%',
-              height: '100%',
-              background: 'var(--mantine-color-body)',
-              zIndex: 1000,
-            }}
-          >
+          <div className={classes.burgerBackground}>
             <Container
               style={{
                 position: 'absolute',
-                top: '80px',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
+                top: '56px',
+                right: '0px',
               }}
             >
-              <div style={{ marginTop: '24px' }}>
+              <div style={{ width: '90vw' }}>
                 {items}
               </div>
               <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
-                <Button w="100%">Finde deinen Coach</Button>
+                <Button w="100%" style={{ marginTop: '16px' }}>Finde deinen Coach</Button>
               </Link>
             </Container>
           </div>
