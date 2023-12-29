@@ -30,8 +30,8 @@ export default function Blickfang() {
                   meistern.
                 </p>
 
-                <Link href="/kurse_buchen">
-                  <Button>Finde deinen Coach</Button>
+                <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
+                  <Button size="md">Finde deinen Coach</Button>
                 </Link>
               </div>
             )}
@@ -41,7 +41,7 @@ export default function Blickfang() {
                 <h1>Finde Deinen eigenen Weg</h1>
 
                 <Link href="/kurse_buchen">
-                  <Button>Finde deinen Coach</Button>
+                  <Button size="md">Finde deinen Coach</Button>
                 </Link>
               </div>
             )}
@@ -75,18 +75,19 @@ export default function Blickfang() {
         </div>
       </AspectRatio>
       {mobile && (
-        <div className={classes.solidBackground}>
-          <Container>
-            <h3>
+        <div className={classes.solidBackground} style={{ paddingBottom: '0' }}>
+          <Container style={{ paddingBottom: 'inherit' }}>
+            <h3 style={{ marginBottom: '0' }}>
               Finde Deinen eigenen Weg im Leben mit Zufriedenheit und Erfüllung und schlage ihn mit
               vollem Bewusstsein ein.
             </h3>
-
-            <p>
+            {/*
+              <p>
               Ivymind ist eine Plattform für Achtsamkeit und Selbstliebe, die Dich mit einem
               qualifizierten Coach in Verbindung bringt, um Deine Herausforderungen im Leben zu
               meistern.
-            </p>
+              </p>
+            */}
           </Container>
         </div>
       )}

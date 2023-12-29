@@ -10,7 +10,7 @@ export default function UeberUns() {
       <Container>
         <Grid gutter="md">
           <Grid.Col span={{ base: 12, sm: 12, md: 6 }}>
-            <h2>Über Uns</h2>
+            <h2 style={{ }}>Über Uns</h2>
             <p>
               Ivymind ist ein Onlineportal für Coachings, Kurse und Seminare, die sich alle um
               Achtsamkeit und Selbstliebe drehen. Es ist der Startpunkt für Menschen, die nach
@@ -20,8 +20,8 @@ export default function UeberUns() {
               eigenen Ziele zueinander ergänzen.
             </p>
             <Link href="/ueber_uns">
-              <Button size="md" radius="xl">
-                MEHR ERFAHREN
+              <Button size="md" radius="sm">
+                Mehr Erfahren
               </Button>
             </Link>
           </Grid.Col>

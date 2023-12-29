@@ -5,18 +5,18 @@ import { IconHandClick, IconBow, IconCloud } from '@tabler/icons-react';
 
 export default function OnlineportalAchtsamkeitSelbstliebe() {
   return (
-    <Container>
+    <Container style={{ paddingTop: '24px' }}>
       <Center>
         <h2>
           Dein Onlineportal für
-          <br />
+          {/*<br />*/}
           Achtsamkeit und Selbstliebe
         </h2>
       </Center>
       <Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
-            <ActionIcon size="100" variant="transparent">
+            <ActionIcon size="100" variant="transparent" color="green">
                 <IconCloud style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>
@@ -28,7 +28,7 @@ export default function OnlineportalAchtsamkeitSelbstliebe() {
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
-            <ActionIcon size="100" variant="transparent">
+            <ActionIcon size="100" variant="transparent" color="green">
                 <IconHandClick style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>
@@ -40,7 +40,7 @@ export default function OnlineportalAchtsamkeitSelbstliebe() {
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
-            <ActionIcon size="100" variant="transparent">
+            <ActionIcon size="100" variant="transparent" color="green">
                 <IconBow style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>

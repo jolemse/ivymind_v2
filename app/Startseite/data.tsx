@@ -7,22 +7,25 @@ type BlogType = {
 
   export const articles: BlogType[] = [
     {
-      slug: 'selbstwert_was_ist_das',
-      title: 'Wo bitte geht es zu diesem Selbstwert und was ist das überhaupt?',
-      subtitle: 'Eine kurze Übung',
-      bildquelle: '/img/Blog_Images/selbstwert_was_ist_das.jpeg',
+      slug: 'change_perspectives',
+      title: 'Change Perspectives – Ändere Deine Perspektive mit agilem Coaching',
+      subtitle:
+        'Ein Interview mit Nyelete S. Gonçalves Chilenge',
+      bildquelle: '/img/Blog_Images/change_perspectives.jpeg',
     },
     {
-      slug: 'achtsamkeit_koerpergefuehl',
-      title: 'Wie kann Achtsamkeit bei einem guten Körpergefühl helfen?',
-      subtitle: 'Interview mit Mechthild Kreuser',
-      bildquelle: '/img/Blog_Images/mechthild_portrait.jpeg',
+      slug: 'ivymind_entstehung',
+      title: 'Wie ist Ivymind entstanden?',
+      subtitle:
+        'Meine eigene Reise zur Neuorientierung',
+      bildquelle: '/img/Blog_Images/ivymind_entstehung.jpeg',
     },
     {
-      slug: 'kompetenz_zeigen_und_sichtbar_sein',
-      title: 'Zeige Deine Kompetenz und traue Dich, sichtbar zu sein',
-      subtitle: 'Interview mit Jutta Steinbusch',
-      bildquelle: '/img/Blog_Images/kompetenz_zeigen_und_sichtbar_sein.png',
+      slug: 'wege_aus_der_krise',
+      title: 'Wege aus der Krise: Wie gehe ich mit meinem inneren Kritiker und meinen Emotionen um?',
+      subtitle:
+        'Ein Interview mit Dr. Zarmina Penner',
+      bildquelle: '/img/Blog_Images/wege_aus_der_krise.png',
     },
     // Add more articles here
   ];

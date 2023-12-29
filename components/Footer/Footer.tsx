@@ -9,7 +9,7 @@ const data = [
   {
     title: 'Finde Deinen Kurs',
     links: [
-      { label: 'Kurse buchen', link: '/kurse_buchen' },
+      { label: 'Kurse buchen', link: 'https://anny.co/b/ivymind' },
     ],
   },
   {

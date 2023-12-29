@@ -7,7 +7,7 @@ export default function SoGehts() {
   return (
     <div>
       {/*className={classes.solidBackground}*/}
-      <Container>
+      <Container style={{ paddingBottom: '40px' }}>
         <h2>Den richtigen Kurs oder Coach finden</h2>
         <Image src="/img/Startseite/Ivymind_Prozess.svg" style={{ width: '90%', margin: 'auto' }} />
         <Grid gutter="md">

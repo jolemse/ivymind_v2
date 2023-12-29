@@ -1,6 +1,6 @@
 import '@mantine/core/styles.css';
 import React from 'react';
-import Script from 'next/script';
+//import Script from 'next/script';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import { theme } from '../theme';
 import { HeaderSimple } from '@/components/Header/HeaderSimple';
@@ -22,8 +22,10 @@ export default function RootLayout({ children }: { children: any }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+        {/*Anny Skripte
         <Script src="https://unpkg.com/vue@3" />
         <Script src="https://cdn.anny.co/widget/annyComponents.umd.latest.min.js" />
+        */}
       </head>
       <body>
         <MantineProvider theme={theme}>

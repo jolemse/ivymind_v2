@@ -19,6 +19,7 @@ export default function HomePage() {
           <Grid.Col span={{ base: 12, xs: 6, md: 4 }} key={article.slug}>
             <Link href={`/blog/${article.slug}`} className={classes.noUnderline}>
               <AspectRatio ratio={16 / 9}>
+                {/*fit="contain" w="auto" style={{ margin: 'auto' }}*/}
                 <Image src={article.bildquelle} radius="md" maw={550} />
               </AspectRatio>
               <h4 className={classes.headercolor}>{article.title}</h4>

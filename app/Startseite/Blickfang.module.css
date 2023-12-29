@@ -1,35 +1,50 @@
 .gradient {
-    background-image: linear-gradient(90deg, rgb(144,193,83), 60%, rgb(59, 93, 39));
+  background-image: linear-gradient(90deg, rgb(144, 193, 83), 60%, rgb(59, 93, 39));
 }
 
 .solidBackground {
-    background-color: #fef3d7;
-    padding: 1rem 0;
-    color: #3b5d27;
+  background-color: #fef3d7;
+  padding: 2rem 0;
+  color: #3b5d27;
 }
 
 .solidBackgroundRanke {
-    background-color: #7b966d;
-    color: #f0a893;
+  background-color: #7b966d;
+  color: #f0a893;
+  overflow: visible;
 }
 
 .bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .blickfang {
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    z-index: 3;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  z-index: 3;
 }
 
 .slant {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: 10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.conditionalSize {
+  font-size: var(--mantine-font-size-md);
+  padding: 20px;
+}
+
+/* Desktop Styles*/
+@media (min-width: 48em) {
+  .conditionalSize {
+    /* Your styles for larger screens go here */
+    font-size: var(--mantine-font-size-xl);
+    padding: 50px;
+  }
 }

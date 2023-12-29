@@ -11,6 +11,7 @@ export default function Page({ params }: { params: { blogId: string } }) {
   }
   const fullPath = `app/blog/markdownFiles/${blog.slug}.md`;
   const markdown = fs.readFileSync(fullPath, 'utf-8');
+
   return (
     <Container>
       <AspectRatio ratio={16 / 9}>

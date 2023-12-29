@@ -5,7 +5,7 @@ import { Container } from '@mantine/core';
 export default function UnsereKompetenz() {
   return (
     <Container>
-      <h2>
+      <h2 style={{ marginTop: '0' }}>
         (Nur) Menschen, die selbst zufrieden sind, können eine Gesellschaft aktiv mitgestalten
       </h2>
       <p>

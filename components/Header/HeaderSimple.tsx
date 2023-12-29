@@ -39,14 +39,43 @@ export function HeaderSimple() {
           <Image src="/img/Logo/Logo-Schriftzug.png" h="48" />
         </Link>
 
-        <Group gap={5} visibleFrom="xs">
+        <Group gap={5} visibleFrom="sm">
           {items}
-          <Link href="/kurse_buchen">
+          <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
             <Button>Finde deinen Coach</Button>
           </Link>
         </Group>
 
-        <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
+        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+        {opened && (
+          <div
+            style={{
+              position: 'fixed',
+              top: '56px',
+              left: 0,
+              width: '100%',
+              height: '100%',
+              background: 'var(--mantine-color-body)',
+              zIndex: 1000,
+            }}
+          >
+            <Container
+              style={{
+                position: 'absolute',
+                top: '80px',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+              }}
+            >
+              <div style={{ marginTop: '24px' }}>
+                {items}
+              </div>
+              <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
+                <Button w="100%">Finde deinen Coach</Button>
+              </Link>
+            </Container>
+          </div>
+        )}
       </Container>
     </header>
   );
