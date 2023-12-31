@@ -7,11 +7,9 @@ import classes from './CookieConsentBanner.module.css';
 
 export function CookiesBanner() {
   const [showPopup, setShowPopup] = useState(false);
-  //sessionStorage.setItem('gaTriggered', 'false');
 
   useEffect(() => {
     //Check local storage for saved cookies
-    sessionStorage.setItem('gaTriggered', 'false');
     const storedCookies = getCookies();
     //console.log(storedCookies);
 
@@ -21,11 +19,12 @@ export function CookiesBanner() {
       //console.log('storedCookies.cookiesSet === \'true\'');
     }
 
+    //Google Analytics bei jedem Revisit nochmal ausführen, wenn der Consent da ist.
     const gaTriggered = sessionStorage.getItem('gaTriggered');
-    console.log(gaTriggered);
-    if (storedCookies.cookiesConsent === 'true' && gaTriggered === 'false') {
-        sessionStorage.setItem('gaTriggered', 'true');
-        googleAnalytics();
+    //console.log(gaTriggered);
+    if (storedCookies.cookiesConsent === 'true' && gaTriggered !== 'true') {
+      sessionStorage.setItem('gaTriggered', 'true');
+      googleAnalytics();
     }
   }, []);
 
