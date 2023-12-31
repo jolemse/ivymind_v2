@@ -1,16 +1,17 @@
 'use client';
 
-import Script from 'next/script';
 import { useEffect, useState } from 'react';
 import { Button, Paper, Text, Group, CloseButton } from '@mantine/core';
-import { getCookies, setCookies } from './cookie';
+import { getCookies, setCookies, googleAnalytics } from './cookie';
 import classes from './CookieConsentBanner.module.css';
 
 export function CookiesBanner() {
   const [showPopup, setShowPopup] = useState(false);
+  //sessionStorage.setItem('gaTriggered', 'false');
 
   useEffect(() => {
     //Check local storage for saved cookies
+    sessionStorage.setItem('gaTriggered', 'false');
     const storedCookies = getCookies();
     //console.log(storedCookies);
 
@@ -19,24 +20,14 @@ export function CookiesBanner() {
       setShowPopup(true);
       //console.log('storedCookies.cookiesSet === \'true\'');
     }
-  }, []);
 
-  function googleAnalytics() {
-    return (
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JZWQETF6NE" />
-        <Script id="google-analytics">
-          {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-        
-                gtag('config', 'G-JZWQETF6NE');
-                `}
-        </Script>
-      </div>
-    );
-  }
+    const gaTriggered = sessionStorage.getItem('gaTriggered');
+    console.log(gaTriggered);
+    if (storedCookies.cookiesConsent === 'true' && gaTriggered === 'false') {
+        sessionStorage.setItem('gaTriggered', 'true');
+        googleAnalytics();
+    }
+  }, []);
 
   const handleAccept = () => {
     //Accepting Cookies
