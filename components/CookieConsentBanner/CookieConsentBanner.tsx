@@ -5,12 +5,17 @@ import { Button, Paper, Text, Group, CloseButton } from '@mantine/core';
 import { getCookies, setCookies, googleAnalytics } from './cookie';
 import classes from './CookieConsentBanner.module.css';
 
+interface Cookies {
+  cookiesSet?: string;
+  cookiesConsent?: string;
+}
+
 export function CookiesBanner() {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     //Check local storage for saved cookies
-    const storedCookies = getCookies();
+    const storedCookies: Cookies = getCookies();
     //console.log(storedCookies);
 
     try {
