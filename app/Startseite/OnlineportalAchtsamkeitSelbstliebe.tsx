@@ -8,9 +8,7 @@ export default function OnlineportalAchtsamkeitSelbstliebe() {
     <Container style={{ paddingTop: '24px' }}>
       <Center>
         <h2>
-          Dein Onlineportal für
-          {/*<br />*/}
-          Achtsamkeit und Selbstliebe
+          Dein Onlineportal für Achtsamkeit und Selbstliebe
         </h2>
       </Center>
       <Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
