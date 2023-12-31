@@ -7,16 +7,16 @@ import { getCookies, setCookies } from './cookie';
 import classes from './CookieConsentBanner.module.css';
 
 export function CookiesBanner() {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     //Check local storage for saved cookies
     const storedCookies = getCookies();
     //console.log(storedCookies);
 
-    if (storedCookies.cookiesSet === 'true') {
+    if (storedCookies.cookiesSet !== 'true') {
       //Nicht optimal, für Type Safety wäre wohl Bool type besser
-      setShowPopup(false);
+      setShowPopup(true);
       //console.log('storedCookies.cookiesSet === \'true\'');
     }
   }, []);
