@@ -1,5 +1,4 @@
 export const getCookies = () => {
-    //Wird aktuell nicht verwendet
     const cookies = document.cookie.split('; ');
     const cookieMap = {};
 
@@ -17,5 +16,6 @@ export const setCookies = (name, value, daysToExpire) => {
 
     const cookieValue = encodeURIComponent(value) + '; expires=' + expirationDate.toUTCString() + '; path=/';
     document.cookie = name + '=' + cookieValue;
+    //console.log("entered setCookies: Set Value ", name + '=' + cookieValue);
 
 }

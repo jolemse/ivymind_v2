@@ -1,36 +1,52 @@
 'use client';
 
 import Script from 'next/script';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Paper, Text, Group, CloseButton } from '@mantine/core';
-import { setCookies } from './cookie';
+import { getCookies, setCookies } from './cookie';
 import classes from './CookieConsentBanner.module.css';
 
 export function CookiesBanner() {
   const [showPopup, setShowPopup] = useState(true);
 
-  const handleAccept = () => {
-    //Accepting Cookies
-    setCookies('cookiesSet', 'true');
-    setShowPopup(false);
-    return (
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JZWQETF6NE" />
-        <Script id="google-analytics">
-          {`
+  useEffect(() => {
+    //Check local storage for saved cookies
+    const storedCookies = getCookies();
+    //console.log(storedCookies);
+
+    if (storedCookies.cookiesSet === 'true') {
+      //Nicht optimal, für Type Safety wäre wohl Bool type besser
+      setShowPopup(false);
+      //console.log('storedCookies.cookiesSet === \'true\'');
+    }
+  }, []);
+
+  function googleAnalytics() {
+    <div className="container">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-JZWQETF6NE" />
+      <Script id="google-analytics">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
           gtag('config', 'G-JZWQETF6NE');
         `}
-        </Script>
-      </div>
-    );
+      </Script>
+    </div>;
+  }
+
+  const handleAccept = () => {
+    //Accepting Cookies
+    setCookies('cookiesSet', 'true', 365);
+    setCookies('cookiesConsent', 'true', 365);
+    googleAnalytics();
+    setShowPopup(false);
   };
   const handleReject = () => {
     // Perform any necessary actions on rejecting cookies
-    setCookies('cookiesSet', 'true');
+    setCookies('cookiesSet', 'true', 365);
+    setCookies('cookiesConsent', 'false', 365);
     setShowPopup(false);
   };
 
