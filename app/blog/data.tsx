@@ -1,4 +1,4 @@
-type BlogType = {
+export type BlogType = {
   slug: string;
   title?: string;
   subtitle: string;

@@ -10,7 +10,7 @@ import { CookiesBanner } from '@/components/CookieConsentBanner/CookieConsentBan
 
 export const metadata = {
   title: 'Ivymind - Dein Portal für Achtsamkeit und Selbstliebe',
-  description: 'I am using Mantine with Next.js!',
+  description: 'Bei Ivymind findest Du Kurse und Coachings rund um das Thema Achtsamkeit und Selbstliebe.',
 };
 
 export default function RootLayout({ children }: { children: any }) {
