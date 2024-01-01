@@ -1,5 +1,3 @@
-'use client';
-
 import { notFound } from 'next/navigation';
 import Markdown from 'react-markdown';
 import * as fs from 'fs';
