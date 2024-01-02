@@ -4,8 +4,11 @@ import path from 'path';
 async function logging() {
   // Get the current working directory
   const currentDir = process.cwd();
+  console.log('currentDir');
+  console.log(currentDir);
   // Read all contents of the current directory
   const files = await fs.readdir(currentDir);
+  console.log(files);
   for (const file of files) {
     const filePath = path.join(currentDir, file);
     const stats = await fs.stat(filePath);
@@ -21,6 +24,7 @@ export async function getPostData(slug: string) {
   const fullPath = path.join(process.cwd(), slug);
   console.log("Logging should appear now");
   logging();
-  const markdown = await fs.readFile(fullPath, 'utf-8');
+  //const markdown = await fs.readFile(fullPath, 'utf-8');
+  const markdown = '#Hier ist gerade etwas schief gelaufen';
   return markdown;
 }
