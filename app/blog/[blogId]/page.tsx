@@ -1,3 +1,5 @@
+'use server';
+
 import { notFound } from 'next/navigation';
 import Markdown from 'react-markdown';
 import { Container, Image, AspectRatio } from '@mantine/core';
