@@ -13,7 +13,8 @@ export default async function Page({ params }: { params: { blogId: string } }) {
     return notFound();
   }
   const blogPath = `/markdownFiles/${blog.slug}.md`;
-  const markdown = await getPostData(blogPath);
+  //const markdown = await getPostData(blogPath);
+  const markdown = '# Hier ist gerade etwas schief gelaufen.\n #### Wir arbeiten daran, dass hier bald wieder alles so funktioniert wie gewünscht.';
 
   return (
     <Container>
