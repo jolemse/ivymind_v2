@@ -9,8 +9,8 @@ async function logging() {
   console.log('currentDir');
   console.log(currentDir);
   // Read all contents of the current directory
-  console.log('Reading /');
-  const files = await fs.readdir('/');
+  console.log('Reading /var');
+  const files = await fs.readdir('/var');
   console.log(files);
   try {
     const files2 = await readdir(currentDir);
