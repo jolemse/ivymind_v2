@@ -13,7 +13,7 @@ export default async function Page({ params }: { params: { blogId: string } }) {
     return notFound();
   }
   //const blogPath = `app/blog/markdownFiles/${blog.slug}.md`;
-  const blogPath = `/blog/markdownFiles/${blog.slug}.md`;
+  const blogPath = `/markdownFiles/${blog.slug}.md`;
   const markdown = await getPostData(blogPath);
   //const fullPath = `${process.cwd()}/${blogPath}`;
   //const fullPath = `http://localhost:3000/${blogPath}`;
