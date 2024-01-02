@@ -19,6 +19,7 @@ async function logging() {
 
 export async function getPostData(slug: string) {
   const fullPath = path.join(process.cwd(), slug);
+  console.log("Logging should appear now");
   logging();
   const markdown = await fs.readFile(fullPath, 'utf-8');
   return markdown;
