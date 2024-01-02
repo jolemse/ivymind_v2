@@ -1,4 +1,5 @@
 import { promises as fs } from 'fs';
+import { readdir } from 'node:fs/promises';
 import path from 'path';
 
 async function logging() {
@@ -9,15 +10,13 @@ async function logging() {
   // Read all contents of the current directory
   const files = await fs.readdir(currentDir);
   console.log(files);
-  for (const file of files) {
-    const filePath = path.join(currentDir, file);
-    const stats = await fs.stat(filePath);
-    // Check if the file is a directory and log it
-    if (stats.isDirectory()) {
-      console.log(file);
-      // This logs the directory name
-    }
-  }
+  try {
+    const files2 = await readdir(currentDir);
+    for (const file2 of files2)
+      console.log(file2);
+  } catch (err) {
+    console.error(err);
+  } 
 }
 
 export async function getPostData(slug: string) {
@@ -25,6 +24,6 @@ export async function getPostData(slug: string) {
   console.log("Logging should appear now");
   logging();
   //const markdown = await fs.readFile(fullPath, 'utf-8');
-  const markdown = '#Hier ist gerade etwas schief gelaufen';
+  const markdown = '# Hier ist gerade etwas schief gelaufen\n### Wir arbeiten daran, dass hier alles so funktioniert wie gewünscht.';
   return markdown;
 }
