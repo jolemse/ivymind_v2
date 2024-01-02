@@ -27,14 +27,15 @@ export default async function Page({ params }: { params: { blogId: string } }) {
       <AspectRatio ratio={16 / 9}>
         <Image src={blog.bildquelle} radius="md" />
       </AspectRatio>
+      {/*
       <Markdown
         components={{
           // open links in new tab
           a: (props) => <a {...props} target="_blank" rel="noopener noreferrer nofollow" />,
         }}
       >
-        {/*{markdown}*/}
-      </Markdown>
+        {/*{markdown}*
+      </Markdown>*/}
     </Container>
   );
 }
