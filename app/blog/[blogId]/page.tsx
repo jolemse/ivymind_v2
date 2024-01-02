@@ -12,15 +12,8 @@ export default async function Page({ params }: { params: { blogId: string } }) {
   if (!blog) {
     return notFound();
   }
-  //const blogPath = `app/blog/markdownFiles/${blog.slug}.md`;
   const blogPath = `/markdownFiles/${blog.slug}.md`;
   const markdown = await getPostData(blogPath);
-  //const fullPath = `${process.cwd()}/${blogPath}`;
-  //const fullPath = `http://localhost:3000/${blogPath}`;
-  //const markdown = fs.readFileSync(fullPath, 'utf-8');
-  //const markdownData = await fetch(fullPath);
-  //const markdown = await markdownData;
-  //console.log(markdown);
 
   return (
     <Container>

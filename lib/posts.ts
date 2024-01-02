@@ -9,16 +9,8 @@ async function logging() {
   console.log('currentDir');
   console.log(currentDir);
   // Read all contents of the current directory
-  console.log('Reading /var');
-  const files = await fs.readdir('/var');
+  const files = await readdir(currentDir);
   console.log(files);
-  try {
-    const files2 = await readdir(currentDir);
-    for (const file2 of files2)
-      console.log(file2);
-  } catch (err) {
-    console.error(err);
-  } 
 }
 
 export async function getPostData(slug: string) {
