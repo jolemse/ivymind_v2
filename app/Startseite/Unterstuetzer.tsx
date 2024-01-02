@@ -25,7 +25,7 @@ export default function Unterstuetzer() {
         <Carousel.Slide>
           <Center>
             <Image
-              src="/img/Unsere_Unterstuetzer/Gründerstipendium1.png"
+              src="/img/Unsere_Unterstuetzer/Gruenderstipendium1.png"
               h="180"
               w="auto"
               fit="contain"
@@ -36,7 +36,7 @@ export default function Unterstuetzer() {
         <Carousel.Slide>
           <Center>
             <Image
-              src="/img/Unsere_Unterstuetzer/hub-badge_blue_de_wir sind dabei.png"
+              src="/img/Unsere_Unterstuetzer/hub-badge_blue_de_wir_sind_dabei.png"
               h="180"
               w="auto"
               fit="contain"
@@ -58,7 +58,7 @@ export default function Unterstuetzer() {
         <Carousel.Slide>
           <Center>
             <Image
-              src="/img/Unsere_Unterstuetzer/digitalHUB Incubator.png"
+              src="/img/Unsere_Unterstuetzer/digitalHUB_Incubator.png"
               h="180"
               w="auto"
               fit="contain"
