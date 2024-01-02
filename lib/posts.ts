@@ -1,3 +1,5 @@
+'use server';
+
 import { promises as fs } from 'fs';
 import { readdir } from 'node:fs/promises';
 import path from 'path';
