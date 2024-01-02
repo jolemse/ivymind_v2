@@ -5,15 +5,15 @@ import Markdown from 'react-markdown';
 import { Container, Image, AspectRatio } from '@mantine/core';
 import { articles } from '../data';
 
-import { getPostData } from '@/lib/posts';
+//import { getPostData } from '@/lib/posts';
 
 export default async function Page({ params }: { params: { blogId: string } }) {
   const blog = articles.find((x) => x.slug === params.blogId);
   if (!blog) {
     return notFound();
   }
-  const blogPath = `app/blog/markdownFiles/${blog.slug}.md`;
-  const markdown = await getPostData(blogPath);
+  //const blogPath = `app/blog/markdownFiles/${blog.slug}.md`;
+  //const markdown = await getPostData(blogPath);
   //const fullPath = `${process.cwd()}/${blogPath}`;
   //const fullPath = `http://localhost:3000/${blogPath}`;
   //const markdown = fs.readFileSync(fullPath, 'utf-8');
@@ -33,7 +33,7 @@ export default async function Page({ params }: { params: { blogId: string } }) {
           a: (props) => <a {...props} target="_blank" rel="noopener noreferrer nofollow" />,
         }}
       >
-        {markdown}
+        {/*{markdown}*/}
       </Markdown>
     </Container>
   );
