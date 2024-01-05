@@ -17,7 +17,7 @@ export default async function Page({ params }: { params: { blogId: string } }) {
 
   return (
     <Container>
-      <h1>{blog.title}</h1>
+      {/*<h1>{blog.title}</h1>*/}
       <AspectRatio ratio={16 / 9}>
         <Image src={blog.bildquelle} radius="md" />
       </AspectRatio>
