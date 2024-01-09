@@ -23,7 +23,7 @@ export const setCookies = (name, value, daysToExpire) => {
 };
 
 export function googleAnalytics() {
-  console.log("Triggered Google Analytics");
+  //console.log("Triggered Google Analytics");
   return (
     <div className="container">
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-JZWQETF6NE" />
