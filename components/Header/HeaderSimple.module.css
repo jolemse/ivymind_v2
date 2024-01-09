@@ -36,7 +36,7 @@
   visibility: hidden;
 }
 
-@media (max-width: 48em) {
+@media (hiddenFrom: "sm") {
   .link {
     display: block;
     line-height: 2.5;
