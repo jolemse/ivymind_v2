@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { Button, Paper, Text, Group, CloseButton } from '@mantine/core';
-import { getCookies, setCookies, googleAnalytics } from './cookie';
+import { getCookies, setCookies } from './cookie';
+import googleAnalytics from './googleAnalyticsCode';
 import classes from './CookieConsentBanner.module.css';
 
 interface Cookies {
