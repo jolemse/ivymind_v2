@@ -1,3 +1,5 @@
+import Script from 'next/script';
+
 function googleAnalytics() {
     //console.log("Triggered Google Analytics");
     return (

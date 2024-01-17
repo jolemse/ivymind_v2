@@ -1,5 +1,4 @@
 'use client';
-import Script from 'next/script';
 
 export const getCookies = () => {
   const cookies = document.cookie.split('; ');
