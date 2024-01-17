@@ -36,7 +36,7 @@ export function HeaderSimple() {
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
         <Link href="/" style={{ zIndex: '2000' }}>
-          <Image src="/img/Logo/Logo-Schriftzug.png" h="48" />
+          <Image src="/img/Logo/Logo-Schriftzug.png" h="48px" w="144px" />
         </Link>
 
         <Group gap={5} visibleFrom="sm">
