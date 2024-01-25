@@ -69,7 +69,7 @@ export function Footer() {
       </Container>
       <Container className={classes.afterFooter}>
         <Text c="dimmed" size="sm">
-          © 2023 Ivymind GmbH. Alle Rechte Vorbehalten.
+          © 2022 - 2024 Ivymind GmbH. Alle Rechte Vorbehalten.
         </Text>
 
         <Group gap={0} className={classes.social} justify="flex-end" wrap="nowrap">

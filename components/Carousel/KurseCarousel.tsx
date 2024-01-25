@@ -59,14 +59,6 @@ function Card({ image, title, category, link, buttonText }: CardProps) {
 
 const data = [
   {
-    image: '/img/Featured_Kurse/Kraft_Energie_Neues_Jahr.png',
-    image_alt: 'Ruhe finden - Ziele setzen - Kraft tanken - Workshop',
-    title: '',
-    category: '',
-    link: 'https://anny.co/b/book/mit-kraft-und-energie-ins-neue-jahr?from=organization&step=calendar',
-    buttonText: 'Zum Workshop',
-  },
-  {
     image:
       'https://images.unsplash.com/photo-1530900651397-b5b696532c39?q=80&w=3688&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     image_alt: 'Das vollständige Angebot von Ivymind entdecken',
