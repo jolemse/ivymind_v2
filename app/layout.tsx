@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import '@mantine/core/styles.css';
 import React from 'react';
 //import Script from 'next/script';
@@ -34,6 +36,7 @@ export default function RootLayout({ children }: { children: any }) {
           <CookiesBanner />
           {children}
           <Footer />
+          <Analytics />
         </MantineProvider>
       </body>
     </html>
