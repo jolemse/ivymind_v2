@@ -4,6 +4,7 @@ import '@mantine/core/styles.css';
 import React from 'react';
 //import Script from 'next/script';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import MicrosoftClarity from './metrics/MicrosoftClarity';
 import { theme } from '../theme';
 import { HeaderSimple } from '@/components/Header/HeaderSimple';
 import { Footer } from '@/components/Footer/Footer';
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: any }) {
           {children}
           <Footer />
           <Analytics />
+          <MicrosoftClarity />
         </MantineProvider>
       </body>
     </html>
