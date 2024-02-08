@@ -40,7 +40,7 @@ export default function Blickfang() {
               <div style={{ width: '80%' }}>
                 <h1>Finde Deinen eigenen Weg</h1>
 
-                <Link href="/kurse_buchen">
+                <Link href="https://anny.co/b/ivymind">
                   <Button size="md">Finde deinen Coach</Button>
                 </Link>
               </div>
