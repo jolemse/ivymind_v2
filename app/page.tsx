@@ -1,5 +1,9 @@
+'use client';
+
 //Mantine Imports
 import { Container, Center } from '@mantine/core';
+//Typeform Imports
+import { Widget } from '@typeform/embed-react';
 //Component Imports
 import Blickfang from './Startseite/Blickfang';
 import UeberUns from './Startseite/UeberUns';
@@ -36,6 +40,10 @@ export default function HomePage() {
           <h2>Vorgestellter Inhalt</h2>
         </Center>
         <KurseCarousel />
+        <Center>
+          <h2>Finde Dein perfektes Match</h2>
+        </Center>
+        <Widget id="MUHrT9x3" style={{ width: '100%', height: '540px', border: 'none' }} />
       </Container>
       <BlogArtikel />
       <Unterstuetzer />

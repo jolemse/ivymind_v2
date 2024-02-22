@@ -9,12 +9,14 @@
 }
 
 .title {
-    font-family: Greycliff CF, sans-serif;
-    font-weight: 900;
+    /*font-family: Greycliff CF, sans-serif;*/
+    font-weight: 700;
     color: var(--mantine-color-white);
     line-height: 1.2;
     font-size: rem(32px);
     margin-top: var(--mantine-spacing-xs);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
 }
 
 .category {

@@ -5,6 +5,9 @@ import { useMediaQuery } from '@mantine/hooks';
 import { Paper, Text, Title, Button, useMantineTheme, rem, AspectRatio } from '@mantine/core';
 import Link from 'next/link';
 import classes from './CardsCarousel.module.css';
+import { title } from 'process';
+import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
+
 //import '@mantine/carousel/styles.css';
 
 interface CardProps {
@@ -60,6 +63,23 @@ function Card({ image, title, category, link, buttonText }: CardProps) {
 const data = [
   {
     image:
+      '/img/Featured_Kurse/Ameland_2.png',
+    image_alt: 'Bild von Ameland mit einem Weg zu einem Leuchtturm',
+    title: 'Finde Deine Vision ... auf Ameland',
+    category: '',
+    link: 'https://anny.co/b/book/sabine-grosser-bildungsurlaub-nordsee-ynlfqdsyj8?from=organization&step=calendar',
+    buttonText: 'Jetzt buchen',
+  },
+  {
+    image: '/img/Featured_Kurse/Zarmina_Penner.png',
+    image_alt: 'Meine Aufgabe ist es, Dich zu Dir selbst zu bringen, damit Du meine Hilfe nicht mehr brauchst.',
+    title: '',
+    category: '',
+    link: 'https://anny.co/b/book/quick-check-zarmina-penner?from=organization&step=calendar',
+    buttonText: 'Jetzt buchen',
+  },
+  {
+    image:
       'https://images.unsplash.com/photo-1530900651397-b5b696532c39?q=80&w=3688&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     image_alt: 'Das vollständige Angebot von Ivymind entdecken',
     title: 'Entdecke unser vollständiges Angebot',
@@ -84,6 +104,8 @@ export function KurseCarousel() {
       slideGap={{ base: rem(2), sm: 'xl' }}
       align="start"
       slidesToScroll={mobile ? 1 : 1}
+      nextControlIcon={<IconArrowRight style={{ width: rem(16), height: rem(16) }} />}
+      previousControlIcon={<IconArrowLeft style={{ width: rem(16), height: rem(16) }} />}
     >
       {slides}
     </Carousel>
