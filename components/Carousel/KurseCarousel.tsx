@@ -4,9 +4,9 @@ import { Carousel } from '@mantine/carousel';
 import { useMediaQuery } from '@mantine/hooks';
 import { Paper, Text, Title, Button, useMantineTheme, rem, AspectRatio } from '@mantine/core';
 import Link from 'next/link';
+import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 import classes from './CardsCarousel.module.css';
 import { title } from 'process';
-import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 
 //import '@mantine/carousel/styles.css';
 

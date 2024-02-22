@@ -11,7 +11,7 @@ import {
   ActionIcon,
   Grid,
 } from '@mantine/core';
-import { IconDirectionsOff, IconCloudBolt, IconHealthRecognition } from '@tabler/icons-react';
+import { IconRotate, IconCloudBolt, IconHealthRecognition } from '@tabler/icons-react';
 import Link from 'next/link';
 
 export default function Huerden() {
@@ -34,35 +34,44 @@ export default function Huerden() {
         {/*<h4>Was passiert, wenn das Problem nicht angegangen wird.</h4>*/}
         <Grid>
           <Grid.Col span={2}>
+            <ActionIcon size="lg" color="green" variant="transparent" style={{ width: '100%' }}>
+              <IconRotate
+                style={{ width: rem(48), height: rem(48), margin: 'auto' }}
+                stroke={1.5}
+              />
+            </ActionIcon>
+          </Grid.Col>
+          <Grid.Col span={10} style={{ display: 'flex', alignItems: 'center' }}>
+            <b>Feststecken in alten Routinen</b>
+          </Grid.Col>
+
+          <Grid.Col span={2}>
+            <ActionIcon size="lg" color="green" variant="transparent" style={{ width: '100%' }}>
+              <IconCloudBolt
+                style={{ width: rem(48), height: rem(48), margin: 'auto' }}
+                stroke={1.5}
+              />
+            </ActionIcon>
+          </Grid.Col>
+          <Grid.Col span={10} style={{ display: 'flex', alignItems: 'center' }}>
+            <b>Anhaltende Frustration</b>
+          </Grid.Col>
+
+          <Grid.Col span={2}>
             <ActionIcon
               size="lg"
               color="green"
               variant="transparent"
               style={{ width: '100%', height: '100%' }}
             >
-              <IconHealthRecognition style={{ width: rem(48), height: rem(48), margin: 'auto' }} stroke={1.5} />
+              <IconHealthRecognition
+                style={{ width: rem(48), height: rem(48), margin: 'auto' }}
+                stroke={1.5}
+              />
             </ActionIcon>
           </Grid.Col>
           <Grid.Col span={10} style={{ display: 'flex', alignItems: 'center' }}>
-              <b>Gesundheit leidet unter dauerndem Stress</b>
-          </Grid.Col>
-
-          <Grid.Col span={2}>
-            <ActionIcon size="lg" color="green" variant="transparent" style={{ width: '100%' }}>
-              <IconCloudBolt style={{ width: rem(48), height: rem(48), margin: 'auto' }} stroke={1.5} />
-            </ActionIcon>
-          </Grid.Col>
-          <Grid.Col span={10} style={{ display: 'flex', alignItems: 'center' }}>
-            <b>Frustration</b>
-          </Grid.Col>
-
-          <Grid.Col span={2}>
-            <ActionIcon size="lg" color="green" variant="transparent" style={{ width: '100%' }}>
-              <IconDirectionsOff style={{ width: rem(48), height: rem(48), margin: 'auto' }} stroke={1.5} />
-            </ActionIcon>
-          </Grid.Col>
-          <Grid.Col span={10} style={{ display: 'flex', alignItems: 'center' }}>
-            <b>Überforderung und Hilflosigkeit</b>
+            <b>Gesundheit leidet unter dauerndem Stress</b>
           </Grid.Col>
         </Grid>
       </SimpleGrid>

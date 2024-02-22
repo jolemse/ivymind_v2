@@ -19,15 +19,12 @@ export default function Blickfang() {
           >
             {larger && (
               <div style={{ width: '70%' }}>
-                <h1>
-                  Finde Deinen eigenen Weg im Leben mit Zufriedenheit und Erfüllung und schlage ihn
-                  mit vollem Bewusstsein ein.
-                </h1>
+                <h1>Finde Deinen Weg zur beruflichen und persönlichen Erfüllung</h1>
 
                 <p>
-                  Ivymind ist eine Plattform für Achtsamkeit und Selbstliebe, die Dich mit einem
-                  qualifizierten Coach in Verbindung bringt, um Deine Herausforderungen im Leben zu
-                  meistern.
+                  Ivymind ist Deine Online-Plattform für Achtsamkeit, Selbstliebe und beruflichen
+                  Erfolg. Finde Deinen passenden Coach oder Kurs, um Deine Herausforderungen für
+                  eine Neuorientierung zu meistern.
                 </p>
 
                 <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
@@ -78,16 +75,13 @@ export default function Blickfang() {
         <div className={classes.solidBackground} style={{ paddingBottom: '0' }}>
           <Container style={{ paddingBottom: 'inherit' }}>
             <h3 style={{ marginBottom: '0' }}>
-              Finde Deinen eigenen Weg im Leben mit Zufriedenheit und Erfüllung und schlage ihn mit
-              vollem Bewusstsein ein.
+              Finde Deinen Weg zur beruflichen und persönlichen Erfüllung
             </h3>
-            {/*
-              <p>
-              Ivymind ist eine Plattform für Achtsamkeit und Selbstliebe, die Dich mit einem
-              qualifizierten Coach in Verbindung bringt, um Deine Herausforderungen im Leben zu
-              meistern.
-              </p>
-            */}
+            <p style={{ paddingTop: '1rem', margin: '0' }}>
+              Ivymind ist Deine Online-Plattform für Achtsamkeit, Selbstliebe und beruflichen
+              Erfolg. Finde Deinen passenden Coach oder Kurs, um Deine Herausforderungen für eine
+              Neuorientierung zu meistern.
+            </p>
           </Container>
         </div>
       )}

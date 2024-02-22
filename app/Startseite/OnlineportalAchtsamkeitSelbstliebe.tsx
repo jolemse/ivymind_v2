@@ -7,45 +7,43 @@ export default function OnlineportalAchtsamkeitSelbstliebe() {
   return (
     <Container style={{ paddingTop: '24px' }}>
       <Center>
-        <h2>
-          Dein Onlineportal für Achtsamkeit und Selbstliebe
-        </h2>
+        <h2>Deine Online-Plattform für neue Wege</h2>
       </Center>
       <Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
             <ActionIcon size="100" variant="transparent" color="green">
-                <IconCloud style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
+              <IconCloud style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>
           <h3>Entschleunigung einbauen</h3>
           <p>
-            Kennst du das? Der Alltag hat sich verselbstständigt und besteht nur noch aus Routinen.
-            Suche die Ruhe in deinem Alltag, um Dich auf das Wesentliche fokussieren zu können.
+            Die Grundlage für beruflichen und persönlichen Erfolg ist die Selbstfürsorge. Suche die
+            Ruhe in Deinem Alltag, um Dich auf das Wesentliche fokussieren zu können.
           </p>
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
             <ActionIcon size="100" variant="transparent" color="green">
-                <IconHandClick style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
+              <IconHandClick style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>
           <h3>Selbstwert stärken</h3>
           <p>
-            Gibt es alte Glaubenssätze, die Dich runterziehen? Starte neu und gib der Kraft und den
-            Stärken, die in Dir stecken, Raum.
+            Du bist mehr als Dein Beruf. Du bist mehr als Deine Ausbildung. Finde Deinen inneren
+            Kompass und was alles in Dir steckt.
           </p>
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Center>
             <ActionIcon size="100" variant="transparent" color="green">
-                <IconBow style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
+              <IconBow style={{ width: rem(128), height: rem(128) }} stroke={1.5} />
             </ActionIcon>
           </Center>
-          <h3>Ziele formulieren und erreichen</h3>
+          <h3>Ziele umsetzen</h3>
           <p>
-            Was möchtest du in Deinem Leben erreichen? Möchtest Du etwas ganz Neues wagen? Setze Dir
-            neue Ziele und starte Deinen Weg in die Umsetzung Deiner Wünsche.
+            Was ist es wonach Du suchst? Möchtest Du etwas ganz Neues wagen? Starte mit den ersten
+            Schritten in die Umsetzung Deiner Visionen.
           </p>
         </Grid.Col>
       </Grid>
