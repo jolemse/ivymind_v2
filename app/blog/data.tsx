@@ -7,6 +7,12 @@ export type BlogType = {
 
 export const articles: BlogType[] = [
   {
+    slug: 'neue_denkwege_ueber_deinen_koerper',
+    title: 'Wie Du über Deinen Körper an neue Denkwege kommst.',
+    subtitle: 'Ein Interview mit Sabine Grosser',
+    bildquelle: '/img/Blog_Images/neue_denkwege_ueber_deinen_koerper.jpeg',
+  },
+  {
     slug: 'change_perspectives',
     title: 'Change Perspectives – Ändere Deine Perspektive mit agilem Coaching',
     subtitle:
