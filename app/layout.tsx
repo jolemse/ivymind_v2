@@ -12,8 +12,8 @@ import '@mantine/carousel/styles.css';
 import { CookiesBanner } from '@/components/CookieConsentBanner/CookieConsentBanner';
 
 export const metadata = {
-  title: 'Ivymind - Dein Portal für Achtsamkeit und Selbstliebe',
-  description: 'Bei Ivymind findest Du Kurse und Coachings rund um das Thema Achtsamkeit und Selbstliebe.',
+  title: 'Ivymind - Dein Portal für Achtsamkeit, Selbstliebe und beruflichen Erfolg',
+  description: 'Finde Deinen passenden Coach oder Kurs, um Deine Herausforderungen für eine Neuorientierung zu meistern.',
 };
 
 export default function RootLayout({ children }: { children: any }) {
