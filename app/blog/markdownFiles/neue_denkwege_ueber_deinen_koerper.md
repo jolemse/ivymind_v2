@@ -68,4 +68,6 @@ Flucht funktioniert auch in der Regel nicht. Das heißt das, was ich brauche, is
 
 **Vielen lieben Dank Sabine**
 
-[Zu Sabines Profil](https://anny.co/b/book/sabine-grosser-bildungsurlaub-nordsee-ynlfqdsyj8?from=organization&step=calendar)
+Wenn Du Sabine mal kennen lernen möchtest, schau in ihrem Profil vorbei:
+
+[Hier geht es zu ihrem Profil](https://anny.co/b/book/sabine-grosser-bildungsurlaub-nordsee-ynlfqdsyj8?from=organization&step=calendar)

@@ -12,7 +12,7 @@ import '@mantine/carousel/styles.css';
 import { CookiesBanner } from '@/components/CookieConsentBanner/CookieConsentBanner';
 
 export const metadata = {
-  title: 'Ivymind - Dein Portal für Achtsamkeit, Selbstliebe und beruflichen Erfolg',
+  title: 'Ivymind - Deine Online-Plattform für beruflichen Erfolg, Achtsamkeit und Selbstliebe',
   description: 'Finde Deinen passenden Coach oder Kurs, um Deine Herausforderungen für eine Neuorientierung zu meistern.',
 };
 

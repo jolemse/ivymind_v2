@@ -77,7 +77,7 @@ export default function Huerden() {
       </SimpleGrid>
       <Center>
         <Link href="kurse_buchen">
-          <Button size="md">Kurse buchen</Button>
+          <Button size="md">Alle Angebote einsehen</Button>
         </Link>
       </Center>
     </Container>
