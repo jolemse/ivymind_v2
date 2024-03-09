@@ -76,7 +76,7 @@ export default function Huerden() {
         </Grid>
       </SimpleGrid>
       <Center>
-        <Link href="kurse_buchen">
+        <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
           <Button size="md">Alle Angebote einsehen</Button>
         </Link>
       </Center>

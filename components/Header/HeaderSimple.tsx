@@ -41,7 +41,7 @@ export function HeaderSimple() {
 
         <Group gap={5} visibleFrom="sm">
           {items}
-          <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
+          <Link href="/perfect_match">
             <Button>Finde deinen Coach</Button>
           </Link>
         </Group>
@@ -60,7 +60,7 @@ export function HeaderSimple() {
               <div style={{ width: '90vw' }}>
                 {items}
               </div>
-              <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
+              <Link href="/perfect_match">
                 <Button w="100%" style={{ marginTop: '16px' }}>Finde deinen Coach</Button>
               </Link>
             </Container>

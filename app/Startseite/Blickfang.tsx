@@ -27,7 +27,7 @@ export default function Blickfang() {
                   eine Neuorientierung zu meistern.
                 </p>
 
-                <Link href="https://anny.co/b/ivymind" rel="noopener nofollow" target="_blank">
+                <Link href="/perfect_match">
                   <Button size="md">Finde deinen Coach</Button>
                 </Link>
               </div>
@@ -37,7 +37,7 @@ export default function Blickfang() {
               <div style={{ width: '80%' }}>
                 <h1>Finde Deinen eigenen Weg</h1>
 
-                <Link href="https://anny.co/b/ivymind">
+                <Link href="/perfect_match">
                   <Button size="md">Finde deinen Coach</Button>
                 </Link>
               </div>
