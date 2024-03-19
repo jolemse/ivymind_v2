@@ -1,5 +1,5 @@
 # Wo bitte geht es zu diesem Selbstwert und was ist das überhaupt? - Eine kurze Übung
-## Ein Gastbeitrag von [Jutta Steinbusch](https://anny.co/b/book/onlineworkshopangstfreie-sichtbarkeitde)
+## Ein Gastbeitrag von Jutta Steinbusch
 Da bekomme ich direkt Lust, mit diesem Wort zu spielen und weitere Fragen zu stellen: Selbst-Wert, sich selbst-es-wert-sein. Was bedeutet es und wie fühlt sich das an? Ist es ein Selbstwert-Gefühl? Was ist mein Wert? Wie messe ich meinen Wert? Und wie messen andere, ob und wie wertvoll ich bin?
 
 Zack, da bin ich schnell in der Bewertungsfalle gelandet und betrachte mich von außen, aus den Augen der anderen. Und schon nehme ich eine Perspektive ein, die mich von mir und meinem erlebten und vor allem inneren Selbstwert ablenkt.
@@ -26,3 +26,5 @@ Nimm Dir Zeit für Dich selbst. Was brauchst Du, um Dich gut zu fühlen?
 Manchmal schleichen sich hinderliche, negative Gedanken an, die Dich in Deinem Selbstwert zweifeln lassen. Schaue dann genau hin und frage Dich, ob sie wirklich Deiner Wahrheit entsprechen. Oft sind es Blockaden und hinderliche Bewältigungsstrategien aus der Vergangenheit, die Dich heute nicht mehr unterstützen.
 
 Entdecke Deine innere Stärke und zeige, wer Du bist und was Du kannst.
+
+Wenn du Jutta kennen lernen möchtest, dann [schau bei ihrem Profil vorbei.](https://anny.co/b/book/onlineworkshopangstfreie-sichtbarkeitde)
