@@ -11,7 +11,7 @@ export function Text() {
         <h3>Was wir bewirken wollen</h3>
         <p>
           Ivymind ist der Ort, an dem Du für Deine persönliche Entwicklung ins Handeln kommst.<br />
-          Bestimmt kennst Du es schon: Du hast mal darüber nachgedacht hast, ein Coaching zu machen
+          Bestimmt kennst Du es schon: Du hast mal darüber nachgedacht ein Coaching zu machen
           oder erst mal einen Workshop zu besuchen, fandest den Dschungel an Angeboten aber dann zu
           unübersichtlich und undurchsichtig. Ivymind gibt Dir einen Startpunkt, an dem Du auch
           genau das findest, was zu Dir passt.
