@@ -7,6 +7,12 @@ export type BlogType = {
 
 export const articles: BlogType[] = [
   {
+    slug: 'wie_finde_ich_den_richtigen_job',
+    title: 'Wie finde ich den Job, der zu mir passt und der mich erfüllt?',
+    subtitle: 'Ein Interview mit Julia Hautz',
+    bildquelle: '/img/Blog_Images/wie_finde_ich_den_richtigen_job.jpg',
+  },
+  {
     slug: 'neue_denkwege_ueber_deinen_koerper',
     title: 'Wie Du über Deinen Körper an neue Denkwege kommst.',
     subtitle: 'Ein Interview mit Sabine Grosser',
