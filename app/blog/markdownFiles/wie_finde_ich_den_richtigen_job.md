@@ -52,12 +52,16 @@ Was mir irgendwann bewusst geworden ist: Dass die MS mich dazu gezwungen hat, ei
 
 Dabei ist mir aber auch bewusst geworden, dass Arbeit Spaß machen darf und – jetzt wird’s verrückt – Arbeit *kann* sogar Spaß machen. Und dass man zufrieden sein kann mit dem, was man tut, sich wohl fühlt und sich vielleicht sogar darüber freut, wenn Montag die Arbeit wieder losgeht. Das soll jetzt auch gar nicht despektierlich klingen oder ins Lächerliche gezogen werden. Ich bin ja gerade eine Person gewesen, die gesagt hätte „Was für ein Quatsch. Auf Montag freuen, kompletter Blödsinn.“ Deswegen rede ich jetzt so, denn ich lächle da über mich selbst.
 
-Auch wenn es Zeiten gibt oder Phasen gibt, in denen es echt schlimm ist und es einem auch echt nicht gut geht. Aus den Erfahrungen und aus all dem, was ich in den letzten Jahrzehnten erlebt habe, kann ich sagen: Es geht immer weiter. Es geht vielleicht auch nicht immer direkt so weiter, wie du es dir wünschst, aber es geht weiter. Und auch wenn es sich manchmal nicht so anfühlt, du hast immer noch das Steuer deines Lebens selbst in der Hand. Wenn du dich entscheidest zu Pausieren, dann mach auch das. Wenn das Steuer mal ruckelt, weil du in einem Sturm geraten bist, auch dann ist es trotzdem noch deines und du kannst es wieder fester packen und lenken. Vielleicht holst du dir dann auch jemanden mit dazu, der mit dir anpackt. Und es geht weiter. Verliere nicht den Mut, egal um welches Thema es geht. Pause machen okay, aber behalte die Zuversicht.
+Auch wenn es Zeiten gibt oder Phasen gibt, in denen es echt schlimm ist und es einem auch echt nicht gut geht. Aus den Erfahrungen und aus all dem, was ich in den letzten Jahrzehnten erlebt habe, kann ich sagen: Es geht immer weiter. Es geht vielleicht auch nicht immer direkt so weiter, wie du es dir wünschst, aber es geht weiter. Und auch wenn es sich manchmal nicht so anfühlt, du hast immer noch das Steuer deines Lebens selbst in der Hand. Wenn du dich entscheidest zu pausieren, dann mach auch das. Wenn das Steuer mal ruckelt, weil du in einem Sturm geraten bist, auch dann ist es trotzdem noch deines und du kannst es wieder fester packen und lenken. Vielleicht holst du dir dann auch jemanden mit dazu, der mit dir anpackt. Und es geht weiter. Verliere nicht den Mut, egal um welches Thema es geht. Pause machen okay, aber behalte die Zuversicht.
 
 **Das ist ein schönes Schlusswort. Da danke ich dir vielmals für deine Antworten und für deine Einblicke in dein Leben.**
 
-Julia Hautz ist promovierteNeurobiologin, psychologische Beraterin und systemischer Coach.
+Julia Hautz ist promovierte Neurobiologin, psychologische Beraterin und systemischer Coach.
 
 Wenn du Julia Hautz kennen lernen möchtest, dann schau bei ihrem Profil vorbei und vereinbare mit ihr ein kostenloses Erstgespräch:
 
 [Hier geht es zu Julias Profil](https://anny.co/b/book/julia-hautz-yjgeaeb7i7?from=organization&step=service)
+
+Oder hör mal in ihren Podcast “MenschlichSein” rein, dort führt sie inspirierende Gespräche von A-Z mit faszinierenden Menschen zu Themen wie Karriere, Leben mit MS, Nachhaltigkeit & vieles mehr.
+
+[Hier geht es zum Podcast](https://open.spotify.com/show/3LYzBqxBcc6qNFyVirXWct)
