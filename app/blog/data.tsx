@@ -7,6 +7,12 @@ export type BlogType = {
 
 export const articles: BlogType[] = [
   {
+    slug: 'ohne_emotion_keine_motivation',
+    title: 'Ohne Emotion keine Motivation – Wie Veränderungsprozesse entstehen',
+    subtitle: 'Ein Interview mit Silvia Hahn',
+    bildquelle: '/img/Blog_Images/ohne_emotion_keine_motivation.jpeg',
+  },
+  {
     slug: 'wie_finde_ich_den_richtigen_job',
     title: 'Wie finde ich den Job, der zu mir passt und der mich erfüllt?',
     subtitle: 'Ein Interview mit Julia Hautz',

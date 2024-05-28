@@ -7,6 +7,12 @@ type BlogType = {
 
   export const articles: BlogType[] = [
     {
+      slug: 'ohne_emotion_keine_motivation',
+      title: 'Ohne Emotion keine Motivation – Wie Veränderungsprozesse entstehen',
+      subtitle: 'Ein Interview mit Silvia Hahn',
+      bildquelle: '/img/Blog_Images/ohne_emotion_keine_motivation.jpeg',
+    },
+    {
       slug: 'wie_finde_ich_den_richtigen_job',
       title: 'Wie finde ich den Job, der zu mir passt und der mich erfüllt?',
       subtitle: 'Ein Interview mit Julia Hautz',
@@ -17,13 +23,6 @@ type BlogType = {
       title: 'Wie Du über Deinen Körper an neue Denkwege kommst.',
       subtitle: 'Ein Interview mit Sabine Grosser',
       bildquelle: '/img/Blog_Images/neue_denkwege_ueber_deinen_koerper.jpeg',
-    },
-    {
-      slug: 'ivymind_entstehung',
-      title: 'Wie ist Ivymind entstanden?',
-      subtitle:
-        'Meine eigene Reise zur Neuorientierung',
-      bildquelle: '/img/Blog_Images/ivymind_entstehung.jpeg',
     },
     // Add more articles here
   ];
